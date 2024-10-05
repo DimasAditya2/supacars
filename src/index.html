@@ -38,37 +38,238 @@
 
     <!-- Slider -->
     <div class="relative w-screen mx-auto overflow-hidden">
-      <!-- Slider Container -->
-      <div class="flex transition-transform duration-500 ease-in-out" id="slider">
-        <!-- Slide 1 -->
+      <div
+        class="flex transition-transform duration-500 ease-in-out"
+        id="slider"
+      >
         <div class="min-w-full">
-          <img src="./assets/images/car.png" class="w-full" alt="Image 1">
+          <img src="./assets/images/car.png" class="w-full" alt="Image 1" />
         </div>
-        <!-- Slide 2 -->
         <div class="min-w-full">
-          <img src="./assets/images/car-2.jpg" class="w-full" alt="Image 2">
+          <img src="./assets/images/car-2.jpg" class="w-full" alt="Image 2" />
         </div>
       </div>
-    
-      <!-- Navigation Buttons -->
-      <button class="absolute top-1/2 right-4 transform -translate-y-1/2 px-3 py-2" onclick="nextSlide()">
-        <img src="./assets/images/next.png" alt="">
+
+      <button
+        class="absolute top-1/2 right-4 transform -translate-y-1/2 px-3 py-2"
+        onclick="nextSlide()"
+      >
+        <img src="./assets/images/next.png" alt="" />
       </button>
 
-      <div class="flex justify-center gap-4 items-center p-1 absolute right-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -bottom-8 lg:bottom-1 backdrop-blur-sm bg-white/30 w-[543px] h-[94px] rounded-full">
-        <img src="./assets/images/slide-1.png" class="circle w-[70px] h-[70px] rounded-full cursor-pointer hover:border" />
-        <img src="./assets/images/slide-2.png" class="circle w-[70px] h-[70px] rounded-full cursor-pointer hover:border" />
-        <img src="./assets/images/slide-3.png" class="circle w-[70px] h-[70px] rounded-full cursor-pointer hover:border" />
-        <img src="./assets/images/slide-4.png" class="circle w-[70px] h-[70px] rounded-full cursor-pointer hover:border" />
-        <img src="./assets/images/slide-5.png" class="circle w-[70px] h-[70px] rounded-full cursor-pointer hover:border" />
-        <div class="flex items-center justify-center w-[70px] h-[70px] rounded-full bg-white/10 cursor-pointer">
-          <p class="text-x">10 +</p>
+      <div
+        class="flex justify-center gap-4 items-center p-1 absolute right-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -bottom-8 lg:bottom-1 backdrop-blur-sm bg-white/30 w-[543px] h-[94px] rounded-full"
+      >
+        <img
+          src="./assets/images/slide-1.png"
+          class="circle w-[70px] h-[70px] rounded-full cursor-pointer hover:border"
+        />
+        <img
+          src="./assets/images/slide-2.png"
+          class="circle w-[70px] h-[70px] rounded-full cursor-pointer hover:border"
+        />
+        <img
+          src="./assets/images/slide-3.png"
+          class="circle w-[70px] h-[70px] rounded-full cursor-pointer hover:border"
+        />
+        <img
+          src="./assets/images/slide-4.png"
+          class="circle w-[70px] h-[70px] rounded-full cursor-pointer hover:border"
+        />
+        <img
+          src="./assets/images/slide-5.png"
+          class="circle w-[70px] h-[70px] rounded-full cursor-pointer hover:border"
+        />
+        <div
+          class="flex items-center justify-center w-[70px] h-[70px] rounded-full bg-white/10 cursor-pointer"
+        >
+          <p class="text-xl text-white">10+</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- content -->
+    <div class="flex flex-col max-w-screen-lg mx-auto min-h-screen">
+      <div class="flex gap-5 flex-row p-10 text-[#97989B] text-sm">
+        <a href="#">Home</a><span>/</span> <a href="#">Search</a><span>/</span>
+        <a href="#">Result</a><span>/</span>
+        <a href="#" class="text-black"> 4 series</a>
+      </div>
+      <div class="flex flex-col p-10 -mt-12">
+        <h1 class="text-5xl font-medium">
+          2018 BMW M4 3.0 Coupe Yellow Edition
+        </h1>
+        <div class="flex items-center gap-5 mt-[34.5px]">
+          <h2 class="text-[44px] text-[#2F3137] font-bold">
+            <span class="text-gray-500">Rp</span> 1,100,000,000
+          </h2>
+          <div
+            class="flex justify-center items-center rounded-full bg-blue-400 bg-opacity-5 text-blue-400 border-2 border-blue-400 w-[133px] h-12"
+          >
+            Negotiable
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="w-[955px] mx-auto flex items-center bg-[#2F3137] bg-opacity-5 rounded-full h-14 justify-between p-10"
+      >
+        <div class="flex gap-2">
+          <img class="w-6 h-6" src="./assets/images/calendar.png" alt="" />
+          <p class="text-[#7D7E82]">Published on 20/06/2024</p>
+        </div>
+        <div class="flex gap-4">
+          <img src="./assets/images/like.png" alt="" />
+          <img src="./assets/images/share.png" alt="" />
+          <img src="./assets/images/option.png" alt="" />
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="flex gap-4 mx-auto mt-11 flex-wrap p-10">
+        <div
+          class="relative flex w-[162px] h-[91px] bg-[#2F3137] bg-opacity-5 rounded-md"
+        >
+          <div class="flex flex-col p-4 text-text-custom-color">
+            <h1 class="text-lg">Kondisi</h1>
+            <p class="text-2xl text-[#2F3137] font-bold">Bekas</p>
+          </div>
+          <img class="absolute right-0" src="./assets/icon/car.png" alt="" />
+        </div>
+
+        <div
+          class="relative flex w-[162px] h-[91px] bg-[#2F3137] bg-opacity-5 rounded-md"
+        >
+          <div class="flex flex-col p-4 text-text-custom-color">
+            <h1 class="text-lg">Tahun</h1>
+            <p class="text-2xl text-[#2F3137] font-bold">2008</p>
+          </div>
+          <img
+            class="absolute right-0"
+            src="./assets/icon/calendar-2.png"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="relative flex w-[162px] h-[91px] bg-[#2F3137] bg-opacity-5 rounded-md"
+        >
+          <div class="flex flex-col p-4 text-text-custom-color">
+            <h1 class="text-lg">Odo</h1>
+            <p class="text-2xl text-[#2F3137] font-bold">20,0000</p>
+          </div>
+          <img
+            class="absolute right-0"
+            src="./assets/icon/speedometer.png"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="relative flex w-[162px] h-[91px] bg-[#2F3137] bg-opacity-5 rounded-md"
+        >
+          <div class="flex flex-col p-4 text-text-custom-color">
+            <h1 class="text-lg">Warna</h1>
+            <p class="text-2xl text-[#2F3137] font-bold">Kuning</p>
+          </div>
+          <img
+            class="absolute right-0"
+            src="./assets/icon/paintbucket.png"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="relative flex w-[162px] h-[91px] bg-[#2F3137] bg-opacity-5 rounded-md"
+        >
+          <div class="flex flex-col p-4 text-text-custom-color">
+            <h1 class="text-lg">Mesin</h1>
+            <p class="text-2xl text-[#2F3137] font-bold">1997cc</p>
+          </div>
+          <img
+            class="absolute right-0"
+            src="./assets/icon/driving.png"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="relative flex w-[162px] h-[91px] bg-[#2F3137] bg-opacity-5 rounded-md"
+        >
+          <div class="flex flex-col p-4 text-text-custom-color">
+            <h1 class="text-lg">Transmisi</h1>
+            <p class="text-2xl text-[#2F3137] font-bold">Auto</p>
+          </div>
+          <img class="absolute right-0" src="./assets/icon/data.png" alt="" />
+        </div>
+
+        <div
+          class="relative flex w-[162px] h-[91px] bg-[#2F3137] bg-opacity-5 rounded-md"
+        >
+          <div class="flex flex-col p-4 text-text-custom-color">
+            <h1 class="text-lg">Pajak</h1>
+            <p class="text-2xl text-[#2F3137] font-bold">Hidup</p>
+          </div>
+          <img
+            class="absolute right-0"
+            src="./assets/icon/receipt-text.png"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="relative flex w-[162px] h-[91px] bg-[#2F3137] bg-opacity-5 rounded-lg"
+        >
+          <div class="flex flex-col p-4 text-text-custom-color">
+            <p class="text-lg">Seat</p>
+            <p class="text-2xl text-[#2F3137] font-bold">5</p>
+          </div>
+          <img
+            class="absolute right-0"
+            src="./assets/icon/profile.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- Description area -->
+      <div class="w-[955px] min-h-max mx-auto border-2 rounded-lg mb-10">
+        <div
+          class="mx-auto mt-5 flex gap-2 p-4 bg-slate-300 w-11/12 rounded-full"
+        >
+          <div
+            class="flex items-center justify-center w-[432px] bg-white h-14 rounded-full"
+          >
+            <h1>Description</h1>
+          </div>
+          <div
+            class="flex items-center justify-center w-[432px] bg-white h-14 rounded-full"
+          >
+            <h1>Technical Spesifications</h1>
+          </div>
+        </div>
+
+        <div class="w-[955px] p-10">
+          <div>
+            <h1>Spec Cars:</h1>
+            <p>- Odo 20k</p>
+            <p>- Pajak bulan 10</p>
+            <p>- Nik 2018</p>
+            <p>- Yellow (warna favorite)</p>
+          </div>
+
+          <div class="mt-5">
+            <h1>Featur Car:</h1>
+            <p>- Speedometer 6WB Digital</p>
+            <p>- Facelift / LCi luxury edition</p>
+            <p>- Park sensor + Rear Camera</p>
+            <p>- Ac dual Zone</p>
+            <p>- Rear wheel drive</p>
+          </div>
         </div>
       </div>
 
     </div>
-    
-   
 
     <script src="script.js"></script>
   </body>
