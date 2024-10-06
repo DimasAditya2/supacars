@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7b12dafa-e7b0-4d02-b7f2-f867025061c2)# Proyek Slicing Figma ke HTML dan Tailwind CSS
+# Proyek Slicing Figma ke HTML dan Tailwind CSS
 
 ## Link Deploy
 - https://dimasaditya2.github.io/supacars/
