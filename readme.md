@@ -1,4 +1,7 @@
-# Proyek Slicing Figma ke HTML dan Tailwind CSS
+![image](https://github.com/user-attachments/assets/7b12dafa-e7b0-4d02-b7f2-f867025061c2)# Proyek Slicing Figma ke HTML dan Tailwind CSS
+
+## Link Deploy
+- https://dimasaditya2.github.io/supacars/
 
 ## Deskripsi
 Proyek ini adalah hasil slicing dari desain yang dibuat di Figma ke dalam HTML dan Tailwind CSS. Proyek ini bertujuan untuk memperlihatkan kemampuan dalam mengubah desain visual menjadi kode yang dapat digunakan di web.
