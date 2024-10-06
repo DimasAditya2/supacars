@@ -3,6 +3,9 @@
 ## Deskripsi
 Proyek ini adalah hasil slicing dari desain yang dibuat di Figma ke dalam HTML dan Tailwind CSS. Proyek ini bertujuan untuk memperlihatkan kemampuan dalam mengubah desain visual menjadi kode yang dapat digunakan di web.
 
+## Figma Design
+![Alt text](./assets/design/supacars.png)
+
 ## Fitur
 - Penggunaan Tailwind CSS untuk styling
 - Struktur HTML yang bersih dan semantik
